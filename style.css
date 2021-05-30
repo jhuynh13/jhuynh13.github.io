@@ -358,7 +358,7 @@ p {
 	flex-basis: 50%;
 	height: 100%;
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	color: white;
@@ -374,6 +374,9 @@ p {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	
 }
 #projects .project-info p {
 	color: white;
