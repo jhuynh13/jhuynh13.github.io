@@ -268,7 +268,8 @@ p {
 #services .services {
 	flex-direction: column;
 	text-align: center;
-	max-width: 1500px;
+
+	width: 100%;
 	margin: 0 auto;
 	padding: 0 0;
 }
@@ -594,7 +595,7 @@ p {
 
 	/* Services Section */
 	#services .service-bottom .service-item {
-		flex-basis: 45%;
+		flex-basis: 100%;
 		margin: 2.5%;
 	}
 	/* End Services Section */
