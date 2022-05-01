@@ -707,8 +707,8 @@ p {
 	/* End header */
 
 	#services .service-bottom .service-item {
-		flex-basis: 22%;
-		margin: 1.5%;
+		flex-basis: 100%;
+		margin: 5%;
 	}
 }
 /* End  Media Query For Desktop */
