@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "A personal portfolio website built with HTML, CSS, and Tailwind CSS.",
+  "main": "src/index.html",
+  "scripts": {
+    "build": "tailwindcss build src/styles/tailwind.css -o dist/styles.css",
+    "watch": "tailwindcss build src/styles/tailwind.css -o dist/styles.css --watch",
+    "start": "live-server"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "tailwindcss"
+  ]
+}
